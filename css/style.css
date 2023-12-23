@@ -1,0 +1,221 @@
+/* ///////NAVIGACIONI BAR/////// */
+
+ul.navbar-nav>li>a {
+	font-size: 12px;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+
+}
+
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>a {
+	
+	letter-spacing: 0.15rem;
+
+}
+
+.logo{
+	width: 170px;
+}
+
+.senka-sl {
+
+	background-color: rgba(0,0,0,0.5);
+	left: 0;
+	right: 0;
+	font-style: italic;
+
+
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+@media (min-width: 567px) {
+    .abs-center-x {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+}
+/* ///////KARTICE/////// */
+
+.card-stil{
+	width: 200px; 
+	height: 280px; 
+	margin-left:19%;
+}
+/* ///////FOOTER/////// */
+
+.lista-f{
+	font-size:15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+.in-f{
+	font-size: 16px;
+	font-style:italic;
+	opacity: 80%;
+	color:#9a9da0;
+
+
+}
+footer li a {
+	text-decoration: none;
+	color:#9a9da0;
+
+}
+footer li a:hover{
+	text-decoration: none;
+	color: silver;
+}
+.f-kontakt{
+	text-decoration: none;
+	color: #9a9da0;
+	font-weight: bold;
+	font-style:italic;
+	font-size: 13px;
+}
+.f-kontakt:hover{
+	color:white;
+}
+.icon{
+	margin-bottom: 2px;
+	margin-left: 10px;
+}
+/* ///////JUMBOTRON - SHOP/////// */
+
+.jumbotron{
+	background-color: white;
+}
+
+.shop-text{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	font-style:italic;
+    font-family: arial;
+    text-shadow: 5px 5px 12px rgba(150, 150, 150, 1);
+}
+
+.jumb-p-text{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	font-style:italic;
+
+}
+/* ///////JUMBOTRON - SHOP - ZOOM/////// */
+
+.img-hover-zoom {
+  height: 250px; 
+  overflow: hidden; 
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+/* ///////BANNER/////// */
+.banner-containter{
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans Unicode"; 
+  font-style:italic;
+  letter-spacing: 0.2rem;
+}
+
+.backgshadow{
+text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.64);
+
+}
+
+.subbanner{
+	margin-left: 5%;
+}
+/* ///////O nama tekst/////// */
+.head-title{
+  font-style: italic;
+  font-family: "arial"; 
+  letter-spacing: 0.1rem;	
+  font-weight: bold;
+}
+
+.text-justifly{
+	font-size: 17px;
+	word-spacing: 5px;
+}
+
+.onama-kontakt{	
+	text-decoration: none;
+	color:black;
+}
+
+.onama-kontakt:hover{
+	color: black;
+}
+/* ///////TERMINI TRENINGA/////// */
+.term{
+	white-space: pre;
+	font-size: 18px;
+}
+
+.mapasajta-text{
+	text-decoration: none;
+	color: black;
+}
+
+    .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+
+    .title-faq{
+    	text-decoration: none;
+    	color: #343a40;
+    }
+    .title-faq:hover{
+    	text-decoration: none;
+    	color: black;
+    }
